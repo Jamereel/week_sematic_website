@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Frappe</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Star Frappe</h1>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#services">Services</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+</header>
+
+<main>
+
+    <!-- HOME -->
+    <section id="home">
+        <h2>Home</h2>
+
+        <p>
+            Welcome to Star Frappe! Enjoy refreshing frappes,
+            milk tea, iced coffee, fruit shakes, and tasty snacks
+            made with quality ingredients.
+        </p>
+
+        <img src="img/frappe.jpg.jpg" alt="Star Frappe" width="350">
+    </section>
+
+    <br>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About</h2>
+
+        <p>
+            Star Frappe is a beverage shop that offers delicious drinks
+            and snacks for everyone. Our goal is to provide quality
+            products, excellent customer service, and a relaxing place
+            where customers can enjoy every sip.
+        </p>
+    </section>
+
+    <br>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <h2>Services</h2>
+
+        <table>
+            <caption><strong>Our Menu</strong></caption>
+
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Classic Frappe</td>
+                    <td>₱120</td>
+                </tr>
+
+                <tr>
+                    <td>Milk Tea</td>
+                    <td>₱90</td>
+                </tr>
+
+                <tr>
+                    <td>Iced Coffee</td>
+                    <td>₱100</td>
+                </tr>
+
+                <tr>
+                    <td>Fruit Shake</td>
+                    <td>₱110</td>
+                </tr>
+
+                <tr>
+                    <td>Snacks</td>
+                    <td>₱70</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <h3>Business Hours</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Opening Hours</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>10:00 AM - 8:00 PM</td>
+                </tr>
+
+                <tr>
+                    <td>Tuesday</td>
+                    <td>9:00 AM - 10:00 PM</td>
+                </tr>
+
+                <tr>
+                    <td>Wednesday</td>
+                    <td>10:00 AM - 8:00 PM</td>
+                </tr>
+
+                <tr>
+                    <td>Thursday</td>
+                    <td>9:00 AM - 6:00 PM</td>
+                </tr>
+
+                <tr>
+                    <td>Friday</td>
+                    <td>8:00 AM - 9:00 PM</td>
+                </tr>
+
+                <tr>
+                    <td>Saturday</td>
+                    <td>9:00 AM - 10:00 PM</td>
+                </tr>
+
+                <tr>
+                    <td>Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <br>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <form action="#" method="post">
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30" required></textarea><br><br>
+
+            <input type="submit" value="Send">
+
+        </form>
+    </section>
+
+</main>
+
+<hr>
+
+<footer>
+    <p>&copy; 2026 Star Frappe. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
